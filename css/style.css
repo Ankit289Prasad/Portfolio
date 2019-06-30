@@ -119,6 +119,10 @@ header .container .col-md-7 button{
   background: url(../Assets/Images/skills.jpg);
   background-size: 100%;
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .cover .content{
   background: rgba(0,0,0,0.4);
@@ -155,4 +159,15 @@ header .container .col-md-7 button{
 .numbers .rect h1{
   font-family: var(--Patua);
   font-size: 2.5rem;
+}
+.Art h1{
+  padding-top: 12vmin;
+  padding-bottom: 0.2em;
+  font-family: var(--Lobster);
+}
+.Art p{
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 8vmin;
+  font-family: var(--Snigle-font);
 }

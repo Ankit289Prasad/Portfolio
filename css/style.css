@@ -11,7 +11,7 @@ header,section{
 --Patua:"Patua One",cursive;
 --Lobster:"Lobster",cursive;
 --light-black:#2e2c2caf;
---bggradient:linear-gradient(to bottom,#2724dd,#2fe0ff);
+--bggradient:linear-gradient(to bottom,#0f0d83,#2fe0ff);
 --light-gray:rgba(255,255,255,0.2);
 }
 header a{
@@ -20,13 +20,13 @@ header a{
   color: whitesmoke;
 }
 header{
-  background: #2427dd;
+  background: #2023be81;
   background: var(--bggradient);
 }
 .dropdown-content{
   display: none;
   position: absolute;
-  background: white;
+  background: rgba(255, 255, 255, 0.623);
   min-width:160px;
   box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -84,4 +84,75 @@ header .container .col-md-7 button{
 }
 .section-1{
   padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+  opacity: 0.9;
+  width:80%;
+  border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+  position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+  position: absolute;
+  top: 4vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 4px;
+  padding: 3vmin 5vmin  2vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel p{
+  font-size: 0.9em;
+  color: rgba(0,0,0,0.5);
+}
+.cover{
+  width: 100%;
+  height: 35vmin;
+  background: url(../Assets/Images/skills.jpg);
+  background-size: 100%;
+  position: relative;
+}
+.cover .content{
+  background: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%;
+  padding-top: 7vmin;
+}
+.cover .content h1{
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: rgb(215, 225, 245);
+}
+.cover .content p{
+  font-family: var(--Rubik);
+  font-size: 2.5vmin;
+  color: aquamarine;
+}
+.numbers .rect{
+  color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(rgb(59, 0, 50),rgb(132, 0, 194) ,rgb(247, 3, 226),rgb(247, 3, 226),rgb(247, 3, 226) ,rgb(132, 0, 94),rgb(59, 0, 50));
+  width: 11rem;
+  height: 4rem;
+  padding: 1vmin;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 35px;
+  box-shadow: 1px 2px 50px 0px rgba(38, 0, 43, 0.863);
+}
+.numbers{
+  margin-top: -2.7rem;
+}
+.numbers .rect h1{
+  font-family: var(--Patua);
+  font-size: 2.5rem;
 }

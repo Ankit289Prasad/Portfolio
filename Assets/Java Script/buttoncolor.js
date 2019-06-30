@@ -5,7 +5,7 @@ function setColor(btn, color) {
         property.style.backgroundColor = "#FFFFFF"
         count = 1;
     } else {
-        property.style.backgroundColor = " rgb(218, 6, 200)";
+        property.style.backgroundColor = " rgb(218, 0,0)";
         count = 0;
     }
 

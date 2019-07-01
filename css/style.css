@@ -174,3 +174,70 @@ html{
   padding-bottom: 8vmin;
   font-family: var(--Snigle-font);
 }
+.Art .card{
+  height: 85vmin;
+  width: 30em;
+}
+.Art .card1{
+  height: 85vmin;
+  width: 60em;
+}
+.section-3{
+  height: 70vmin;
+  margin-top:13vmin;
+  background: var(--bggradient);
+  
+}
+.section-3 .col-md-12 h1{
+  padding: 1.5em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+  font-family: var(--Patua);
+}
+.section-3 .col-md-12 p{
+padding: 0 4em;
+padding-bottom: 0em;
+color: wheat;
+font-size: 3vmin;
+}
+.section-3 .desktop{
+  background: white;
+  display: block;
+  border-radius: 3em;
+  padding:1vmin 1.5vmin;
+  margin: 4em;
+  font-family: var(--Lobster);
+}
+.section-4 .container h1{
+  font-size: 6vmin;
+  padding-top: 7vmin;
+  font-family: var(--Patua);
+}
+.section-4 .team{
+  padding: 6vmin 4vmin;
+}
+.section-4 .card{
+  width: 21.5em;
+  height:37em;
+}
+.section-4 .carousel-item{
+  padding-left: 2rem;
+}
+.section-4 .card .card-body h3{
+  font-family: var(--Snigle-font);
+  font-weight: bold;
+}
+footer{
+  background: rgba(0,0,0,0.8);
+  overflow-x: hidden;
+  padding-left: 14vmin;
+  padding-top: 7vmin;
+  padding-bottom: 4vmin;
+  padding-right: 7vmin;
+}
+footer p>span{
+  color: #ff512f;
+}
+footer .column .q{
+  padding-left: 0.5em; 
+}

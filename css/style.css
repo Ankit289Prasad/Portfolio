@@ -124,16 +124,6 @@ header .container .col-md-7 button{
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 479px){
-
-  .cover{
-      -moz-background-size: auto;
-      -webkit-background-size: auto;
-      background-attachment: scroll;
-      background-position: top;
-      background-size: auto;
-     }
-  }
 html{
   scroll-behavior: smooth;
 }

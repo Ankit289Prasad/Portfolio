@@ -1,0 +1,80 @@
+@media only screen and (max-width:768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height:initial;
+    }
+    .numbers .rect{
+        width:5.5rem;
+        height:2.8rem;
+    }
+    .numbers .rect h1{
+        font-size:1.5rem;
+        text-align: center;
+    }
+    .section-3{
+        height: inherit;
+        padding: 7vmin !important;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+    .section-3 .desktop i{
+        font-size: 6vmin;
+    }
+    .section-3 .desktop{
+        margin: 0.3em;
+        font-size: 2vmin;
+        margin-bottom: 3em;
+        margin-top: 2em; 
+    }
+    .section-3 .desktop h3{
+        font-size: 4vmin;
+    }
+    .section-4 .carousel-item{
+        padding-left:0.6rem;
+    }
+    .section-4 .team{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: -11em;
+    }
+    .section-4 .carousel-inner{
+        width:28rem;
+        padding-top: 1em;
+    }
+    .Art .team{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        margin-right: -11em;
+        margin-bottom: 3em;
+    
+    }
+    .vert .carousel-inner{
+        width:24.5rem;
+        padding-bottom: 4em;
+        margin-left: 2.5em;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.219);
+    }
+    .hor .carousel-inner{
+        width:42rem;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.377);
+        margin-left: -7em;
+        margin-top: 20px;
+    }
+    .hor .carousel-inner .card-img-top{
+        object-fit: fill;
+        border: 2px solid rgb(13, 56, 50);
+        width: 70%;
+    }
+    .vert .carousel-inner .card-img-top{
+        object-fit: fill;
+        border: 1.5px solid black;
+        width: 82%;
+    }
+}

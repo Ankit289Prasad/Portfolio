@@ -78,3 +78,109 @@
         width: 82%;
     }
 }
+@media only screen and (max-width:425px)
+{
+    header .row .col-md-5 img{
+        width: 90%;
+        padding-right: 3em;
+      }
+      .vert .carousel-inner{
+        width:21.5rem;
+        padding-bottom: 4em;
+        margin-left: 2.5em;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.219);
+    }
+    .vert .carousel-inner .card-img-top{
+        object-fit: fill;
+        border: 1.5px solid black;
+        width: 71.7%;
+    }
+    .hor .carousel-inner{
+        width:24.5rem;
+        height: 30.7rem;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.377);
+        margin-left: 1em;
+        margin-top: 20px;
+    }
+    .hor .carousel-inner .card-img-top{
+        object-fit:fill;
+        border: 2px solid rgb(13, 56, 50);
+        width: 40.8%;
+    }
+    .section-4 .carousel-inner{
+        width:36rem;
+        padding-top: 1em;
+        align-content: center;
+        padding-left: 9rem;
+    }
+}
+@media only screen and (max-width:375px)
+{
+      .vert .carousel-inner{
+        width:21.5rem;
+        padding-bottom: 4em;
+        margin-left: 1.3em;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.219);
+    }
+    .vert .carousel-inner .card-img-top{
+        object-fit: fill;
+        border: 1.5px solid black;
+        width: 71.7%;
+    }
+    .hor .carousel-inner{
+        width:22rem;
+        height: 30.7rem;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.377);
+        margin-left: 1em;
+        margin-top: 20px;
+    }
+    .hor .carousel-inner .card-img-top{
+        object-fit:fill;
+        border: 2px solid rgb(13, 56, 50);
+        width: 36.8%;
+    }
+    .section-4 .carousel-inner{
+        width:36rem;
+        padding-top: 1em;
+        align-content: center;
+        padding-left: 6rem;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    header .row .col-md-5 img{
+        width: 90%;
+        padding-right: 2em;
+      }
+      .vert .carousel-inner{
+        width:18.8rem;
+        padding-bottom: 4em;
+        margin-left: 0.5em;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.219);
+    }
+    .vert .carousel-inner .card-img-top{
+        object-fit: fill;
+        border: 1.5px solid black;
+        width: 62.7%;
+    }
+    .hor .carousel-inner{
+        width:20rem;
+        height: 30.7rem;
+        box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.377);
+        margin-left: 0.2em;
+        margin-top: 20px;
+    }
+    .hor .carousel-inner .card-img-top{
+        object-fit:fill;
+        border: 2px solid rgb(13, 56, 50);
+        width: 33%;
+    }
+    .section-4 .carousel-inner{
+        width:30rem;
+        padding-top: 1em;
+        align-content: center;
+        padding-left: 8rem;
+    }
+}
+
+

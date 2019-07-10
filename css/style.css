@@ -44,7 +44,7 @@ header{
   display: block;
 }
 header .nav-item:last-child{
-padding-right: 10.5em;
+padding-right: 5.5em;
 }
 header .nav-item{
   padding: 0.9em;
@@ -124,6 +124,7 @@ header .container .col-md-7 button{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 .cover:before{
   position:fixed;
@@ -132,6 +133,7 @@ height:100%;
 left:0;
 top:0;
 background:url(../Assets/Images/skills.jpg);
+z-index: 1;
 }
 html{
   scroll-behavior: smooth;

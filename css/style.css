@@ -323,3 +323,16 @@ div.topBotomBordersOut li a:hover:before, div.topBotomBordersOut a:hover:after
     opacity: 1;
     transform: translateX(0px);
 }
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+}
+	
+@keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+}

@@ -303,13 +303,13 @@ div.topBotomBordersOut li a:before, div.topBotomBordersOut a:after
     background: rgb(255, 255, 255);
     content: "";
     opacity: 0;
-    transition: all 0.7s;
+    transition: all 0.8s;
 }
 
 div.topBotomBordersOut li a:before
 {
     top: 0px;
-    transform: translateY(10px);
+    transform: translate(10px)
 }
 
 div.topBotomBordersOut li a:after
@@ -321,5 +321,5 @@ div.topBotomBordersOut li a:after
 div.topBotomBordersOut li a:hover:before, div.topBotomBordersOut a:hover:after
 {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
 }

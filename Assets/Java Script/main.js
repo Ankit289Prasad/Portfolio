@@ -1,11 +1,14 @@
-let navbar=$(".navbar");
-
-$(window).scroll(function(){
-    let oTop=$(".section-2").offset().top -window.innerHeight;
-    if($(window).scrollTop()>oTop){
-        navbar.addClass("sticky");
-    }else
-    {
-        navbar.removeClass("sticky");
-    } 
-});
+$(document).ready(function() {
+    $(window).scroll(function () { 
+  
+      console.log($(window).scrollTop());
+  
+      if ($(window).scrollTop() > 550) {
+        $('.navbar').addClass('sticky');
+      }
+  
+      if ($(window).scrollTop() < 551) {
+        $('.navbar').removeClass('sticky');
+      }
+    });
+  });

@@ -297,16 +297,17 @@ footer .column .q{
   position: fixed;
   top: 0;
   width: 100%;
-  height: 9.1%;
+  height: 9.2%;
   background: rgba(22, 21, 63, 0.952);
   z-index: 9999;
   transition: all 1.5s ease;
   size: 100%;
- 
 }
+@media only screen and (max-width:768px){
 .sticky .nav-item{
-  background-color: #070658c9;
+  background-color: rgba(22, 21, 63, 0.952);
   transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
 }
 .sticky .nav-item :hover{
   background-color: #07071fc9;

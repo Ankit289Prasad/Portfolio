@@ -3,6 +3,7 @@
 *{
   box-sizing: border-box;
 }
+
 header,section{
   overflow-x: hidden;
 }
@@ -296,10 +297,19 @@ footer .column .q{
   position: fixed;
   top: 0;
   width: 100%;
-  height: 8%;
-  background: rgba(2, 78, 88, 0.952);
+  height: 9.1%;
+  background: rgba(22, 21, 63, 0.952);
   z-index: 9999;
   transition: all 1.5s ease;
+  size: 100%;
+ 
+}
+.sticky .nav-item{
+  background-color: #070658c9;
+  transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.sticky .nav-item :hover{
+  background-color: #07071fc9;
 }
 /* Navbar Animation */
 div.contain li a
